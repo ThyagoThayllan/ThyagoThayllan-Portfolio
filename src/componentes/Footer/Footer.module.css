@@ -20,7 +20,16 @@
     border-bottom: 2px solid var(--PURPLE1);
 }
 
-p span {
+.p span {
     color: red;
     font-size: 1rem;
+}
+
+.p b i a {
+    color: #0d87c0;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+.p b i a:hover {
+    color: cyan;
 }

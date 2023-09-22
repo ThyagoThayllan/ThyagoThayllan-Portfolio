@@ -10,7 +10,7 @@ export const Footer = () => {
             </p>
         </div>
 
-        <p><span>&#10084;</span> Feito por <b><i>Thyago Thayllan</i></b>.</p>
+        <p className={styles.p}><span>&#10084;</span> Feito por <b><i><a href='https://www.linkedin.com/in/thyago-thayllan-mendes-de-sousa-2058b0239/'>Thyago Thayllan</a></i></b>.</p>
     </footer>
   )
 }
