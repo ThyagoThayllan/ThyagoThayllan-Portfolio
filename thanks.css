@@ -1,0 +1,62 @@
+.container {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--GRAY6);
+    padding: 2rem;
+    border-radius: 25px;
+    border: 2px solid var(--PURPLE1);
+    box-shadow: 0 0 10px var(--PURPLE1);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensagem {
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensagem h1 {
+    font-size: 1.5rem;
+}
+
+.mensagem div {
+    padding: 0.4rem;
+    border: 2px solid var(--GRAY7);
+    background: var(--PURPLE1);
+    border-radius: 50%;
+    width: 50px;
+    box-shadow: 1px 2px 5px black;
+    transition: all 0.2s;
+}
+
+.mensagem div:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.mensagem img {
+    width: 100%;
+}
+
+a {
+    background: var(--PURPLE2);
+    padding: 1rem;
+    border-radius: 10px;
+    color: var(--GRAY1);
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+a:hover {
+    background: var(--PURPLE1);
+    box-shadow: 0 0 5px var(--PURPLE1);
+}

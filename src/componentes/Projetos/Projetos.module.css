@@ -1,0 +1,98 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-bottom: 2px solid var(--PURPLE1);
+    padding-bottom: 0.25rem;
+    margin-bottom: 2rem;
+}
+
+.title img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.projetosContainer {
+    display: flex;
+    width: 820px;
+    background: var(--GRAY6);
+    gap: 4rem;
+    border: 2px solid var(--PURPLE1);
+    border-top-left-radius: 200px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 25px;
+    overflow: hidden;
+}
+
+.image {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-flow: column;
+    margin-left: -0.25rem;
+    border: 2px solid var(--PURPLE1);
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 10px 5px black;
+}
+.image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.descricao {
+    width: 500px;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-flow: column;
+    gap: 0.5rem;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.descricao p {
+    text-align: justify;
+}
+
+.linguagensUtilizadas p {
+    border-bottom: 2px solid var(--PURPLE1);
+    padding-bottom: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.linguagensUtilizadas div {
+    display: flex;
+    align-items: center;
+}
+.linguagensUtilizadas div img {
+    width: 50px;
+    transition: all 0.2s;
+}
+.linguagensUtilizadas div img:hover {
+    transform: scale(110%);
+    filter: drop-shadow(0 0 3px var(--PURPLE1));
+}
+
+.html {
+    padding: 0.48rem;
+}
+
+.javascript {
+    padding: 0.4rem;
+}
+
+.react {
+    padding: 0.1rem;
+}

@@ -1,0 +1,26 @@
+.footer {
+    background: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    flex-flow: column;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.p b {
+    color: var(--PURPLE1);
+}
+
+.div {
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--PURPLE1);
+}
+
+p span {
+    color: red;
+    font-size: 1rem;
+}

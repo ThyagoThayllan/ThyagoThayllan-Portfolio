@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--GRAY6);
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    border-bottom: 1px solid var(--PURPLE1);
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.header div img {
+    width: 30px;
+}
+
+.header h1 {
+    font-size: 1rem;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar ul li a {
+    color: var(--GRAY1);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.recebeAfter::after {
+    content: "";
+    width: 80%;
+    height: 2px;
+    background: purple;
+    position: absolute;
+    bottom: 3px;
+    transform: scale(0);
+    transition: ease-in-out 0.2s all;
+}
+.recebeAfter:hover::after {
+    transform: scale(1);
+}
+
+.gitHubDiv {
+    background: transparent;
+    border-radius: 10px;
+    background: var(--PURPLE2);
+    font-weight: bold;
+    margin-left: 0.5rem;
+    outline: 0;
+    transition: all 0.2s;
+}
+.gitHubDiv:hover {
+    background: var(--PURPLE1);
+}
+.gitHubDiv:focus {
+    outline: 1px solid var(--PURPLE1);
+}
