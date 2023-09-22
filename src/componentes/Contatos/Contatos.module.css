@@ -82,12 +82,12 @@
     cursor: pointer;
 }
 
-a {
+.contatos > div p a {
     color: var(--GRAY1);
     text-decoration: none;
     transition: all 0.2s;
 }
-a:hover {
+.contatos > div p a:hover {
     color: var(--PURPLE1);
     text-decoration: none;
 }
