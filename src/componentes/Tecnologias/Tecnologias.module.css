@@ -33,10 +33,10 @@
     gap: 1rem;
     margin-top: 2rem;
     height: 100px;
-    width: 500px;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 .tecnologias img {
     width: 75px;
@@ -45,4 +45,28 @@
 }
 .tecnologias img:hover {
     transform: scale(1.2);
+}
+
+@media (max-width: 820px) {
+    .content {
+        width: 100%;
+        padding: 1rem;
+    }
+    .content p {
+        width: 100%;
+        padding: 0 0.75rem;
+    }
+    .content div {
+        margin-top: 1rem;
+        font-weight: bold;
+        font-size: 1.25rem;
+        text-align: center;
+    }
+    .tecnologias {
+        width: 100%;
+        justify-content: center;
+    }
+    .tecnologias img {
+        width: 50px;
+    }
 }

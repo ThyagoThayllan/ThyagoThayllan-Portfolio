@@ -17,7 +17,7 @@ export const Projetos = () => {
   const projetos = [
     {
       titulo: 'Cronômetro',
-      descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus totam vero ullam, inventore incidunt voluptatum eius dolorum sunt vel?',
+      descricao: 'Cronômetro com opções de "Iniciar", "Resetar", "Pausar" e "Continuar". Tecnologias usadas: HTML, CSS, JavaScript.',
       linguagens: ['HTML', 'CSS', 'JavaScript'],
       linkAcessar: 'https://thyagothayllan.github.io/timer/',
       linkGitHub: 'https://github.com/ThyagoThayllan/timer',
@@ -25,7 +25,7 @@ export const Projetos = () => {
     },
     {
       titulo: 'Calculador de IMC',
-      descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus totam vero ullam, inventore incidunt voluptatum eius dolorum sunt vel?',
+      descricao: 'Digitando seu nome, altura e peso, esta calculadora calcula seu IMC e retorna se está com peso normal, sobrepeso ou obeso. Tecnologias usadas: HTML, CSS, JavaScript.',
       linguagens: ['HTML', 'CSS', 'JavaScript'],
       linkAcessar: 'https://thyagothayllan.github.io/IMC-Calculator/',
       linkGitHub: 'https://github.com/ThyagoThayllan/IMC-Calculator',
@@ -33,7 +33,7 @@ export const Projetos = () => {
     },
     {
       titulo: 'Procurador de Endereço',
-      descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus totam vero ullam, inventore incidunt voluptatum eius dolorum sunt vel?',
+      descricao: 'Este projeto busca o endereço somente com o CEP. Passando o CEP, é feita uma requição na API ViaCEP e retorna, logo abaixo do input, o endereço. Tecnologias usadas: HTML, CSS, JavaScript, React, TypeScript.',
       linguagens: ['HTML', 'CSS', 'JavaScript', 'React', 'TypeScript'],
       linkAcessar: 'https://consultador-de-endereco.vercel.app/',
       linkGitHub: 'https://github.com/ThyagoThayllan/Consultador-de-Endereco',
@@ -78,7 +78,7 @@ export const Projetos = () => {
         <h1>Meus Projetos</h1>
       </div>
       <div className={styles.forTheButtons}>
-        <button onClick={projetoAnterior}>&#10094;</button>
+        <button onClick={projetoAnterior} className={styles.buttonBackAndNext}>&#10094;</button>
         <div className={styles.projetosContainer}>
 
           {/* ------PROJETO */}
@@ -88,7 +88,7 @@ export const Projetos = () => {
           <div className={styles.descricao}>
             <h2>{projeto.titulo}</h2>
 
-            <p>{projeto.descricao}</p>
+            <p className={styles.p}>{projeto.descricao}</p>
 
             <div className={styles.linguagensUtilizadas}>
               <p><b><i>Linguagens utilizadas:</i></b></p>
@@ -109,7 +109,7 @@ export const Projetos = () => {
           </div>
           {/* -------FIM DO PROJETO */}
         </div>
-        <button onClick={proximoProjeto}>&#10095;</button>
+        <button onClick={proximoProjeto} className={styles.buttonBackAndNext}>&#10095;</button>
       </div>
       {/* Radio Buttons */}
       <div className={styles.radioButtons}>

@@ -1,7 +1,17 @@
+import { useState } from 'react'
 import documentoImg from '../../imgs/documento.svg'
 import styles from './Header.module.css'
 
+
+
 export const Header = () => {
+
+    const [mobileMenuOpened, setMobileMenuOpened] = useState(false)
+
+    const openAndCloseMobileMenu = () => {
+        setMobileMenuOpened(!mobileMenuOpened)
+    }
+
     return (
         <header className={styles.header}>
             <div>
@@ -21,6 +31,24 @@ export const Header = () => {
                     </li>
                 </ul>
             </nav>
+            {mobileMenuOpened === false
+                ? (<div className={styles.mobileMenuIcon} onClick={openAndCloseMobileMenu}>
+                    &#9776;
+                </div>)
+                : (<div className={styles.mobileMenu}>
+                    <p onClick={openAndCloseMobileMenu}>
+                        &#10006;
+                    </p>
+                    <ul>
+                        <li><a href="#perfil">Perfil</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#tecnologias">Tecnologias</a></li>
+                        <li><a href="#contatos">Contatos</a></li>
+                    </ul>
+
+                </div>)}
+
+
         </header>
     )
 }

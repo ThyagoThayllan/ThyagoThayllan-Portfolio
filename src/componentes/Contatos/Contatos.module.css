@@ -112,3 +112,18 @@
     justify-content: center;
 
 }
+
+@media (max-width: 820px) {
+    .form {
+        max-width: 325px;
+        width: 100%;
+        padding: 2rem;
+        box-shadow: 0 0 5px var(--PURPLE1);
+    }
+    .contatos {
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        flex-flow: column;
+    }
+}

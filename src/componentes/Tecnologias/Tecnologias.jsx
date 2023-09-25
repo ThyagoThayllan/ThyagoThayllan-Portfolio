@@ -13,10 +13,12 @@ export const Tecnologias = () => {
         <img src={fogueteImg} />
         <h1>Tecnologias</h1>
       </header>
-        <p>
-          Essas são as tecnologias que tenho conhecimento e que já desenvolvi projetos usando-as:<br />
-          <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>React</b>, <b>TypeScript</b>.
-        </p>
+      <p>
+        Essas são as tecnologias que tenho conhecimento e que já desenvolvi projetos usando-as:<br />
+      </p>
+      <div>
+        HTML, CSS, JavaScript, React, TypeScript.
+      </div>
       <div className={styles.tecnologias}>
         <img src={htmlImg} />
         <img src={cssImg} />

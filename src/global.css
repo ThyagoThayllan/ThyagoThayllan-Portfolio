@@ -53,3 +53,16 @@ select {
 p {
     line-height: 1.5;
 }
+
+@media (max-width: 820px) {
+    * {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.25rem;
+    }
+}
