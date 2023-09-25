@@ -12,7 +12,7 @@ export const Header = () => {
                 <ul>
                     <li><a href="#perfil" className={styles.recebeAfter}>Perfil</a></li>
                     <li><a href="#projetos" className={styles.recebeAfter}>Projetos</a></li>
-                    <li><a href="#tecnologias" className={styles.recebeAfter}>Habilidades</a></li>
+                    <li><a href="#tecnologias" className={styles.recebeAfter}>Tecnologias</a></li>
                     <li><a href="#contatos" className={styles.recebeAfter}>Contatos</a></li>
                     <li>
                         <a className={styles.gitHubDiv} href="https://github.com/ThyagoThayllan" target="_blank">
