@@ -1,13 +1,22 @@
 .content {
     width: 100%;
-    height: 100vh;
     background-image: url('../../imgs/imagem1.png');
     background-size: cover;
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    padding: 68px 1rem 1rem 1rem;
+    padding: 68px 1rem 2rem;
+}
+
+.contentPerfil {
+    margin-top: 1rem;
+    width: 700px;
+    height: 614px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
@@ -90,18 +99,6 @@
 .linguagens img:hover {
     transform: scale(110%);
     filter: drop-shadow(0 0 3px var(--PURPLE1));
-}
-
-.html {
-    padding: 0.48rem;
-}
-
-.javascript {
-    padding: 0.4rem;
-}
-
-.react {
-    padding: 0.1rem;
 }
 
 .links {

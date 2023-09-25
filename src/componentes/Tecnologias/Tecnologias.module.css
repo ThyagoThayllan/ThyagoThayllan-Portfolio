@@ -1,5 +1,5 @@
 .content {
-    height: 75vh;
+    min-height: 75vh;
     width: 100%;
     padding: 1rem;
     background-image: url(../../imgs/imagem2.png);
@@ -30,6 +30,7 @@
 }
 
 .tecnologias {
+    gap: 1rem;
     margin-top: 2rem;
     height: 100px;
     width: 500px;
@@ -38,22 +39,10 @@
     justify-content: center;
 }
 .tecnologias img {
-    width: 100px;
+    width: 75px;
     filter: drop-shadow(0 0 5px var(--PURPLE1));
     transition: all 0.2s;
 }
 .tecnologias img:hover {
     transform: scale(1.2);
-}
-
-.html {
-    padding: 1.1rem;
-}
-
-.javascript {
-    padding: 0.8rem;
-}
-
-.react {
-    padding: 0.3rem;
 }

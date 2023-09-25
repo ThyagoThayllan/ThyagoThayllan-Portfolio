@@ -8,6 +8,7 @@
     width: 100%;
     z-index: 1;
     border-bottom: 1px solid var(--PURPLE1);
+    max-height: 50px;
 }
 
 .header div {

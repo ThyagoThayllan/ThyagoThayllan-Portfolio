@@ -12,38 +12,40 @@ import avatarImg from '../../imgs/avatar.png'
 export const Perfil = () => {
     return (
         <div className={styles.content} id="perfil">
-            <div className={styles.title}>
-                <img src={avatarImg} />
-                <h1>Meu Perfil</h1>
-            </div>
-            <div className={styles.perfilContent}>
-                <div className={styles.perfil}>
-                    <img src={minhaFoto} />
-                    <div>
-                        <h2>Thyago Thayllan Mendes de Sousa</h2>
-                        <p>Desenvolvedor Front-End</p>
-                    </div>
+            <div className={styles.contentPerfil}>
+                <div className={styles.title}>
+                    <img src={avatarImg} />
+                    <h1>Meu Perfil</h1>
                 </div>
-                <div className={styles.infoPerfil}>
-                    <p>
-                        Olá, sou Thyago Thayllan, um desenvolvedor front-end de 18 anos. Tenho experiência em HTML, CSS, JavaScript, React e TypeScript. Explore meu portfólio para ver meus projetos e minha paixão por criar experiências web incríveis!
-                    </p>
-                    <div className={styles.linguagens}>
-                        <img src={htmlImg} className={styles.html} />
-                        <img src={cssImg} />
-                        <img src={javascriptImg} className={styles.javascript} />
-                        <img src={reactImg} className={styles.react} />
-                        <img src={typescriptImg} />
+                <div className={styles.perfilContent}>
+                    <div className={styles.perfil}>
+                        <img src={minhaFoto} />
+                        <div>
+                            <h2>Thyago Thayllan Mendes de Sousa</h2>
+                            <p>Desenvolvedor Front-End</p>
+                        </div>
                     </div>
-                    <div className={styles.links}>
-                        <a href="https://www.linkedin.com/in/thyago-thayllan-mendes-de-sousa-2058b0239/" target="_blank" className={styles.linkLinkedin}>
-                            <img src={linkedinImg} className={styles.linkedin} />
-                            <p><b>Linkedin</b></p>
-                        </a>
-                        <a href="https://github.com/ThyagoThayllan" target='_blank' className={styles.linkGithub}>
-                            <img src={githubImg} className={styles.github} />
-                            <p><b>GitHub</b></p>
-                        </a>
+                    <div className={styles.infoPerfil}>
+                        <p>
+                            Olá, sou Thyago Thayllan, um desenvolvedor front-end de 18 anos. Tenho experiência em HTML, CSS, JavaScript, React e TypeScript. Explore meu portfólio para ver meus projetos e minha paixão por criar experiências web incríveis!
+                        </p>
+                        <div className={styles.linguagens}>
+                            <img src={htmlImg} />
+                            <img src={cssImg} />
+                            <img src={javascriptImg} />
+                            <img src={reactImg} />
+                            <img src={typescriptImg} />
+                        </div>
+                        <div className={styles.links}>
+                            <a href="https://www.linkedin.com/in/thyago-thayllan-mendes-de-sousa-2058b0239/" target="_blank" className={styles.linkLinkedin}>
+                                <img src={linkedinImg} className={styles.linkedin} />
+                                <p><b>Linkedin</b></p>
+                            </a>
+                            <a href="https://github.com/ThyagoThayllan" target='_blank' className={styles.linkGithub}>
+                                <img src={githubImg} className={styles.github} />
+                                <p><b>GitHub</b></p>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

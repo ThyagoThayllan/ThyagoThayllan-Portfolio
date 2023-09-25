@@ -18,10 +18,10 @@ export const Tecnologias = () => {
           <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>React</b>, <b>TypeScript</b>.
         </p>
       <div className={styles.tecnologias}>
-        <img src={htmlImg} className={styles.html} />
+        <img src={htmlImg} />
         <img src={cssImg} />
-        <img src={javascriptImg} className={styles.javascript} />
-        <img src={reactImg} className={styles.react} />
+        <img src={javascriptImg} />
+        <img src={reactImg} />
         <img src={typescriptImg} />
       </div>
     </div>
