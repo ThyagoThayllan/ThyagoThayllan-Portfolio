@@ -204,6 +204,10 @@
     box-shadow: 0 0 5px var(--PURPLE1);
 }
 
+.buttonsDiv {
+    display: none;
+}
+
 @media (max-width: 820px) {
     .container {
         padding: 1rem;
@@ -260,5 +264,33 @@
     }
     .buttons a {
         font-size: 1.25rem;
+    }
+
+    .radioButtons {
+        display: none;
+    }
+    .radioButton {
+        display: none;
+    }
+
+    .buttonsDiv {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .toggleButton {
+        padding: 0.25rem 0.5rem;
+        border-radius: 50%;
+        border: 0;
+        font-weight: bold;
+        margin-top: 1rem;
+        background: var(--PURPLE1);
+        border: 2px solid var(--PURPLE1);
+    }
+    .toggleButton:hover {
+        cursor: pointer;
+    }
+    .toggleButton:focus {
+        border-radius: 50%;
     }
 }

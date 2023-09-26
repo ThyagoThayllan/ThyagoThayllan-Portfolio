@@ -111,13 +111,17 @@ export const Projetos = () => {
         </div>
         <button onClick={proximoProjeto} className={styles.buttonBackAndNext}>&#10095;</button>
       </div>
-      {/* Radio Buttons */}
+      {/* Buttons */}
       <div className={styles.radioButtons}>
         <input type="radio" className={styles.radioButton} name="radio-btn" id="radio1" checked={projetoAtual === 0} onChange={() => setProjetoAtual(0)} />
         <input type="radio" className={styles.radioButton} name="radio-btn" id="radio2" checked={projetoAtual === 1} onChange={() => setProjetoAtual(1)} />
         <input type="radio" className={styles.radioButton} name="radio-btn" id="radio3" checked={projetoAtual === 2} onChange={() => setProjetoAtual(2)} />
       </div>
-      {/* Fim dos Radio Buttons */}
+      <div className={styles.buttonsDiv}>
+        <button className={styles.toggleButton} onClick={projetoAnterior}>&#10094;</button>
+        <button className={styles.toggleButton} onClick={proximoProjeto}>&#10095;</button>
+      </div>
+      {/* Radio Buttons */}
     </div>
   )
 }
