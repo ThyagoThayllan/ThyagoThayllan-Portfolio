@@ -1,5 +1,5 @@
 import styles from './Perfil.module.css'
-import minhaFoto from '../../imgs/euimg.jpg'
+import minhaFoto from '../../imgs/euimg.png'
 import linkedinImg from '../../imgs/linkedin.png'
 import githubImg from '../../imgs/github.png'
 import htmlImg from '../../imgs/html.png'
