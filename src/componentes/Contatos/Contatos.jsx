@@ -15,7 +15,7 @@ export const Contatos = () => {
       </header>
 
       <form action="https://formsubmit.co/thayllanst@outlook.com" method="POST" className={styles.form}>
-        <input type="hidden" name="_next" value="https://thyago-thayllan-portfolio.vercel.app/thanks.html" />
+        {/* <input type="hidden" name="_next" value="https://thyago-thayllan-portfolio.vercel.app/thanks.html" /> */}
         <h1>Fale comigo por email</h1>
         <div>
           <label htmlFor="nome">Nome:</label>

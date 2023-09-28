@@ -31,10 +31,7 @@
     background: var(--GRAY6);
     gap: 4rem;
     border: 2px solid var(--PURPLE1);
-    border-top-left-radius: 200px;
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 200px;
-    border-bottom-right-radius: 25px;
+    border-radius: 25px;
     overflow: hidden;
 }
 
@@ -46,7 +43,7 @@
     display: flex;
     flex-flow: column;
     margin-left: -0.25rem;
-    border-radius: 50%;
+    border-radius: 25px;
     overflow: hidden;
     box-shadow: 0 0 10px 5px black;
 }
@@ -54,7 +51,7 @@
 .image img {
     height: 100%;
     max-width: 350px;
-    object-fit: cover;
+    object-fit: fill;
     align-self: center;
 }
 
