@@ -1,43 +1,85 @@
-import { useState } from 'react'
-import styles from './Projetos.module.css'
-import htmlImg from '../../imgs/html.png'
-import cssImg from '../../imgs/css.png'
-import javascriptImg from '../../imgs/javascript.png'
-import reactImg from '../../imgs/react.png'
-import typescriptImg from '../../imgs/typescript.png'
-import vscodeImg from '../../imgs/vscode.png'
-import cronometroImg from '../../imgProjetos/timer.png'
-import cepImg from '../../imgProjetos/ProcuradorDeEndereco.png'
-import imcImg from '../../imgProjetos/IMC.png'
-
+import { useState } from "react";
+import styles from "./Projetos.module.css";
+import htmlImg from "../../imgs/html.png";
+import cssImg from "../../imgs/css.png";
+import javascriptImg from "../../imgs/javascript.png";
+import reactImg from "../../imgs/react.png";
+import typescriptImg from "../../imgs/typescript.png";
+import vscodeImg from "../../imgs/vscode.png";
+import cronometroImg from "../../imgProjetos/timer.png";
+import cepImg from "../../imgProjetos/ProcuradorDeEndereco.png";
+import imcImg from "../../imgProjetos/IMC.png";
+import filmslibraryImg from "../../imgProjetos/filmslibrary.png";
+import githubfinderImg from "../../imgProjetos/githubfinderImg.png";
+import todolistImg from "../../imgProjetos/todolist.png";
+import contadorImg from "../../imgProjetos/contadorImg.png";
 
 export const Projetos = () => {
-  const [projetoAtual, setProjetoAtual] = useState(0)
+  const [projetoAtual, setProjetoAtual] = useState(0);
 
   const projetos = [
     {
-      titulo: 'Cronômetro',
-      descricao: 'Cronômetro com opções de "Iniciar", "Resetar", "Pausar" e "Continuar". Tecnologias usadas: HTML, CSS, JavaScript.',
-      linguagens: ['HTML', 'CSS', 'JavaScript'],
-      linkAcessar: 'https://thyagothayllan.github.io/timer/',
-      linkGitHub: 'https://github.com/ThyagoThayllan/timer',
-      imagem: cronometroImg
+      titulo: "Cronômetro",
+      descricao:
+        "Cronômetro com opções de 'Iniciar', 'Resetar', 'Pausar' e 'Continuar'.",
+      linguagens: ["HTML", "CSS", "JavaScript"],
+      linkAcessar: "https://thyagothayllan.github.io/timer/",
+      linkGitHub: "https://github.com/ThyagoThayllan/timer",
+      imagem: cronometroImg,
     },
     {
-      titulo: 'Calculador de IMC',
-      descricao: 'Digitando seu nome, altura e peso, esta calculadora calcula seu IMC e retorna se está com peso normal, sobrepeso ou obeso. Tecnologias usadas: HTML, CSS, JavaScript.',
-      linguagens: ['HTML', 'CSS', 'JavaScript'],
-      linkAcessar: 'https://thyagothayllan.github.io/IMC-Calculator/',
-      linkGitHub: 'https://github.com/ThyagoThayllan/IMC-Calculator',
-      imagem: imcImg
+      titulo: "Calculador de IMC",
+      descricao:
+        "Digitando seu nome, altura e peso, esta calculadora calcula seu IMC e retorna se está com peso normal, sobrepeso ou obeso.",
+      linguagens: ["HTML", "CSS", "JavaScript"],
+      linkAcessar: "https://thyagothayllan.github.io/IMC-Calculator/",
+      linkGitHub: "https://github.com/ThyagoThayllan/IMC-Calculator",
+      imagem: imcImg,
     },
     {
-      titulo: 'Procurador de Endereço',
-      descricao: 'Este projeto busca o endereço somente com o CEP. Passando o CEP, é feita uma requição na API ViaCEP e retorna, logo abaixo do input, o endereço. Tecnologias usadas: HTML, CSS, JavaScript, React, TypeScript.',
-      linguagens: ['HTML', 'CSS', 'JavaScript', 'React', 'TypeScript'],
-      linkAcessar: 'https://consultador-de-endereco.vercel.app/',
-      linkGitHub: 'https://github.com/ThyagoThayllan/Consultador-de-Endereco',
-      imagem: cepImg
+      titulo: "Procurador de Endereço",
+      descricao:
+        "Este projeto busca o endereço somente com o CEP. Passando o CEP, é feita uma requição na API ViaCEP e retorna, logo abaixo do input, o endereço.",
+      linguagens: ["HTML", "CSS", "JavaScript", "React", "TypeScript"],
+      linkAcessar: "https://consultador-de-endereco.vercel.app/",
+      linkGitHub: "https://github.com/ThyagoThayllan/Consultador-de-Endereco",
+      imagem: cepImg,
+    },
+    {
+      titulo: "Biblioteca de Filmes",
+      descricao:
+        "Conectado a API The Movie Database, este projeto mostra os Melhores Filmes, busca por filmes e mostra dados sobre o filme, como sua receita e orçamento gasto.",
+      linguagens: ["HTML", "CSS", "JavaScript", "React"],
+      linkAcessar: "https://filmslibrary.vercel.app/",
+      linkGitHub: "https://github.com/ThyagoThayllan/filmslibrary",
+      imagem: filmslibraryImg,
+    },
+    {
+      titulo: "GitHub Finder",
+      descricao:
+        "Conectado a API do GitHub, este projeto busca, e retorna abaixo do input, o perfil de um usuário do GitHub.",
+      linguagens: ["HTML", "CSS", "JavaScript", "React", "Typescript"],
+      linkAcessar: "https://git-hub-finder-phi-gilt.vercel.app/",
+      linkGitHub: "https://github.com/ThyagoThayllan/GitHub-Finder",
+      imagem: githubfinderImg,
+    },
+    {
+      titulo: "To Do List",
+      descricao:
+        "Uma lista de tarefas. Adiciona tarefas à fazer, deleta e muda seu estado para pendente (X) ou completa (V).",
+      linguagens: ["HTML", "CSS", "JavaScript", "React"],
+      linkAcessar: "https://to-do-list-2-two.vercel.app/",
+      linkGitHub: "https://github.com/ThyagoThayllan/ToDoList-2",
+      imagem: todolistImg,
+    },
+    {
+      titulo: "Conta Palavras e Caracteres",
+      descricao:
+        "Um simples contador com um botão para mudar se irá contar caracteres ou palavras",
+      linguagens: ["HTML", "CSS", "JavaScript"],
+      linkAcessar: "https://thyagothayllan.github.io/Contador-de-Caracteres-e-Palavras/",
+      linkGitHub: "https://github.com/ThyagoThayllan/Contador-de-Caracteres-e-Palavras",
+      imagem: contadorImg,
     },
   ];
 
@@ -48,39 +90,39 @@ export const Projetos = () => {
 
   // Função para retroceder para o projeto anterior
   const projetoAnterior = () => {
-    setProjetoAtual((projetoAtual - 1 + projetos.length) % projetos.length)
-  }
+    setProjetoAtual((projetoAtual - 1 + projetos.length) % projetos.length);
+  };
 
-  const projeto = projetos[projetoAtual]
+  const projeto = projetos[projetoAtual];
 
   const getImageForLinguagem = (linguagem) => {
     switch (linguagem) {
-      case 'HTML':
+      case "HTML":
         return htmlImg;
-      case 'CSS':
+      case "CSS":
         return cssImg;
-      case 'JavaScript':
+      case "JavaScript":
         return javascriptImg;
-      case 'React':
+      case "React":
         return reactImg;
-      case 'TypeScript':
+      case "TypeScript":
         return typescriptImg;
       default:
-        return '';
+        return "";
     }
-  }
-
+  };
 
   return (
-    <div className={styles.container} id='projetos'>
+    <div className={styles.container} id="projetos">
       <div className={styles.title}>
         <img src={vscodeImg} />
         <h1>Meus Projetos</h1>
       </div>
       <div className={styles.forTheButtons}>
-        <button onClick={projetoAnterior} className={styles.buttonBackAndNext}>&#10094;</button>
+        <button onClick={projetoAnterior} className={styles.buttonBackAndNext}>
+          &#10094;
+        </button>
         <div className={styles.projetosContainer}>
-
           {/* ------PROJETO */}
           <div className={styles.image}>
             <img src={projeto.imagem} />
@@ -91,7 +133,11 @@ export const Projetos = () => {
             <p className={styles.p}>{projeto.descricao}</p>
 
             <div className={styles.linguagensUtilizadas}>
-              <p><b><i>Linguagens utilizadas:</i></b></p>
+              <p>
+                <b>
+                  <i>Linguagens utilizadas:</i>
+                </b>
+              </p>
               <div>
                 {projeto.linguagens.map((linguagem, index) => (
                   <img
@@ -103,25 +149,64 @@ export const Projetos = () => {
               </div>
             </div>
             <div className={styles.buttons}>
-              <a href={projeto.linkAcessar} target='_blank' className={styles.acessar}>Acessar</a>
-              <a href={projeto.linkGitHub} target='_blank' className={styles.github}>GitHub</a>
+              <a
+                href={projeto.linkAcessar}
+                target="_blank"
+                className={styles.acessar}
+              >
+                Acessar
+              </a>
+              <a
+                href={projeto.linkGitHub}
+                target="_blank"
+                className={styles.github}
+              >
+                GitHub
+              </a>
             </div>
           </div>
           {/* -------FIM DO PROJETO */}
         </div>
-        <button onClick={proximoProjeto} className={styles.buttonBackAndNext}>&#10095;</button>
+        <button onClick={proximoProjeto} className={styles.buttonBackAndNext}>
+          &#10095;
+        </button>
       </div>
       {/* Buttons */}
       <div className={styles.radioButtons}>
-        <input type="radio" className={styles.radioButton} name="radio-btn" id="radio1" checked={projetoAtual === 0} onChange={() => setProjetoAtual(0)} />
-        <input type="radio" className={styles.radioButton} name="radio-btn" id="radio2" checked={projetoAtual === 1} onChange={() => setProjetoAtual(1)} />
-        <input type="radio" className={styles.radioButton} name="radio-btn" id="radio3" checked={projetoAtual === 2} onChange={() => setProjetoAtual(2)} />
+        <input
+          type="radio"
+          className={styles.radioButton}
+          name="radio-btn"
+          id="radio1"
+          checked={projetoAtual === 0}
+          onChange={() => setProjetoAtual(0)}
+        />
+        <input
+          type="radio"
+          className={styles.radioButton}
+          name="radio-btn"
+          id="radio2"
+          checked={projetoAtual === 1}
+          onChange={() => setProjetoAtual(1)}
+        />
+        <input
+          type="radio"
+          className={styles.radioButton}
+          name="radio-btn"
+          id="radio3"
+          checked={projetoAtual === 2}
+          onChange={() => setProjetoAtual(2)}
+        />
       </div>
       <div className={styles.buttonsDiv}>
-        <button className={styles.toggleButton} onClick={projetoAnterior}>&#10094;</button>
-        <button className={styles.toggleButton} onClick={proximoProjeto}>&#10095;</button>
+        <button className={styles.toggleButton} onClick={projetoAnterior}>
+          &#10094;
+        </button>
+        <button className={styles.toggleButton} onClick={proximoProjeto}>
+          &#10095;
+        </button>
       </div>
       {/* Radio Buttons */}
     </div>
-  )
-}
+  );
+};
