@@ -49,7 +49,7 @@ export const Contatos = () => {
         </div>
         <div>
           <img src={linkedin2} />
-          <p><a target='_blank' href="https://www.linkedin.com/in/thyago-thayllan-mendes-de-sousa-2058b0239/">
+          <p><a target='_blank' href="https://www.linkedin.com/in/thyagothayllan">
             LinkedIn
           </a></p>
         </div>

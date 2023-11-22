@@ -28,15 +28,6 @@ export const Projetos = () => {
       imagem: filmslibraryImg,
     },
     {
-      titulo: "To Do List",
-      descricao:
-        "Uma lista de tarefas. Adiciona tarefas à fazer, deleta e muda seu estado para pendente (X) ou completa (V).",
-      linguagens: ["HTML", "CSS", "JavaScript", "React"],
-      linkAcessar: "https://to-do-list-2-two.vercel.app/",
-      linkGitHub: "https://github.com/ThyagoThayllan/ToDoList-2",
-      imagem: todolistImg,
-    },
-    {
       titulo: "Procurador de Endereço",
       descricao:
         "Este projeto busca o endereço somente com o CEP. Passando o CEP, é feita uma requisição na API ViaCEP e retorna, logo abaixo do input, o endereço.",
@@ -53,6 +44,15 @@ export const Projetos = () => {
       linkAcessar: "https://git-hub-finder-phi-gilt.vercel.app/",
       linkGitHub: "https://github.com/ThyagoThayllan/GitHub-Finder",
       imagem: githubfinderImg,
+    },
+    {
+      titulo: "To Do List",
+      descricao:
+        "Uma lista de tarefas. Adiciona tarefas à fazer, deleta e muda seu estado para pendente (X) ou completa (V).",
+      linguagens: ["HTML", "CSS", "JavaScript", "React"],
+      linkAcessar: "https://to-do-list-2-two.vercel.app/",
+      linkGitHub: "https://github.com/ThyagoThayllan/ToDoList-2",
+      imagem: todolistImg,
     },
     {
       titulo: "Cronômetro",

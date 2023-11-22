@@ -37,7 +37,7 @@ export const Perfil = () => {
                             <img src={typescriptImg} />
                         </div>
                         <div className={styles.links}>
-                            <a href="https://www.linkedin.com/in/thyago-thayllan-mendes-de-sousa-2058b0239/" target="_blank" className={styles.linkLinkedin}>
+                            <a href="https://www.linkedin.com/in/thyagothayllan" target="_blank" className={styles.linkLinkedin}>
                                 <img src={linkedinImg} className={styles.linkedin} />
                                 <p><b>Linkedin</b></p>
                             </a>
