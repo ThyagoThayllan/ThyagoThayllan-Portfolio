@@ -51,7 +51,7 @@
 .image img {
     height: 100%;
     max-width: 350px;
-    object-fit: fill;
+    object-fit: cover;
     align-self: center;
 }
 

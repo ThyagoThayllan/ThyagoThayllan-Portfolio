@@ -27,7 +27,7 @@ export const Perfil = () => {
                     </div>
                     <div className={styles.infoPerfil}>
                         <p>
-                            Olá, meu nome é Thyago Thayllan, sou Desenvolvedor Front-End e tenho 19 anos. Tenho experiência e conhecimentos em HTML, CSS, JavaScript, React e TypeScript. Explore meu portfólio para ver meus projetos e minha paixão por criar experiências web incríveis!
+                            Olá, meu nome é Thyago Thayllan, sou Desenvolvedor Front-End e tenho 19 anos. Tenho experiência em HTML, CSS, JavaScript, TypeScript, ReactJS, React native. Explore meu portfólio para ver meus projetos e minha paixão por criar experiências web incríveis!
                         </p>
                         <div className={styles.linguagens}>
                             <img src={htmlImg} />

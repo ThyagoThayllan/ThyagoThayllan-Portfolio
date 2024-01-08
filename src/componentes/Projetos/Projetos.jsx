@@ -13,11 +13,21 @@ import filmslibraryImg from "../../imgProjetos/filmslibrary.png";
 import githubfinderImg from "../../imgProjetos/githubfinderImg.png";
 import todolistImg from "../../imgProjetos/todolist.png";
 import contadorImg from "../../imgProjetos/contadorImg.png";
+import pokedex1 from "../../imgProjetos/pokedex1.png";
 
 export const Projetos = () => {
   const [projetoAtual, setProjetoAtual] = useState(0);
 
   const projetos = [
+    {
+      titulo: "Pokedéx",
+      descricao:
+        "Conectado a API PokéAPI, este projeto mostra todos os Pokémons. Também mostra suas evoluções, podendo montar um time, procurar por nome ou por tipo.",
+      linguagens: ["HTML", "CSS", "JavaScript", "React", "TypeScript"],
+      linkAcessar: "https://pokedexapp-sepia.vercel.app/",
+      linkGitHub: "https://github.com/ThyagoThayllan/pokedexapp",
+      imagem: pokedex1,
+    },
     {
       titulo: "Biblioteca de Filmes",
       descricao:
@@ -137,7 +147,7 @@ export const Projetos = () => {
             <div className={styles.linguagensUtilizadas}>
               <p>
                 <b>
-                  <i>Linguagens utilizadas:</i>
+                  <i>Tecnologias utilizadas:</i>
                 </b>
               </p>
               <div>
